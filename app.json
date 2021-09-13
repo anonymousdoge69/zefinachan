@@ -3,6 +3,6 @@
  "description": "PiroNoob gey.",
  "keywords": ["telegram", "scrape", "cc", "rich", "$$"],
  "repository": "https://github.com/anonymousdoge69/zefinachan",
- "env": {"R": {"description": "Author", "value": "RoseLoverX"}},
+ "env": {"TOKEN": {"description": "Bot token", "value": ""}, "CHAT_ID_FORWARD": {"description": "wo vala chat ka id", "value": -100},
  "buildpacks": [{"url": "heroku/python"}]
 }
