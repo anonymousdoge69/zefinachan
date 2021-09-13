@@ -1,0 +1,8 @@
+{
+ "name": "ZefinaChan",
+ "description": "PiroNoob gey.",
+ "keywords": ["telegram", "scrape", "cc", "rich", "$$"],
+ "repository": "https://github.com/anonymousdoge69/zefinachan",
+ "env": {"R": {"description": "Author", "value": "RoseLoverX"}},
+ "buildpacks": [{"url": "heroku/python"}]
+}
