@@ -3,7 +3,7 @@
 
 from telethon import TelegramClient, events
 import os
-
+import requests
 
 TOKEN = os.getenv("TOKEN")
 API_KEY, API_HASH = os.getenv("API_KEY"), os.getenv("API_HASH")
