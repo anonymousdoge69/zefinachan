@@ -1,8 +1,8 @@
 {
- "name": "ZefinaChan",
- "description": "PiroNoob gey.",
- "keywords": ["telegram", "scrape", "cc", "rich", "$$"],
+ "name": "Proxy Scraper",
+ "description": "scrape free proxy from proxyscrape.com",
+ "keywords": ["telegram", "scrape", "proxy", "rich", "$$"],
  "repository": "https://github.com/anonymousdoge69/zefinachan",
- "env": {"TOKEN": {"description": "Bot token from @Botfather", "value": ""}, "CHAT_ID_FORWARD": {"description": "wo vala chat ka id", "value": "-100"}, "MODE": {"description": "dont change", "value": "prod"}, "HEROKU_APP_NAME": {"description": "heroku app name", "value": ""}},
+ "env": {"TOKEN": {"description": "Bot token from @Botfather", "value": ""}, "API_KEY": {"description": "get from my.telegram.org", "value": ""}, "API_HASH": {"description": "get from my.telegram.org", "value": ""}},
  "buildpacks": [{"url": "heroku/python"}]
 }
