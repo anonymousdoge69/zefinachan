@@ -60,3 +60,4 @@ async def socks5__(e):
       file.name = "socks5_proxies.txt"
       await e.respond(file=file)
 
+bot.run_until_disconnected()
