@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 from telethon import TelegramClient, events, Button
-import os
+import os, io
 import requests
 
 TOKEN = os.getenv("TOKEN")
 API_KEY, API_HASH = os.getenv("API_KEY"), os.getenv("API_HASH")
 
-bot = TelegramClient(None, API_KEY, API_HASH
+bot = TelegramClient(None, API_KEY, API_HASH)
 
 bot.start(bot_token=TOKEN)
 
@@ -25,12 +25,12 @@ async def _start(e):
  await e.respond("""
 ✨ PiroProxy™ ✨
 
-✖️For Http(S) click /http
-✖️For Socks5 click /socks5
-✖️For Socks4 click /socks4
+✅For Http(S) click /http
+✅For Socks5 click /socks5
+✅For Socks4 click /socks4
 
 By using our service you agree to our terms of use!
-• AutoUpdate each 15 Mins
+• AutoUpdate each 69 Mins
 • Support: @roseloverx_support
 """, buttons=[Button.text("HTTP"), Button.text("SOCKS4"), Button.text("SOCKS5")])
 
