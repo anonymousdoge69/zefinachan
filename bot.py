@@ -3,7 +3,12 @@
 
 from telethon import TelegramClient, events, Button
 import os, io
-import requests
+import requests, logging
+
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    level=logging.INFO,
+  )
 
 TOKEN = os.getenv("TOKEN")
 API_KEY, API_HASH = os.getenv("API_KEY"), os.getenv("API_HASH")
@@ -20,7 +25,7 @@ async def get_proxies(e):
       file.name = "{}_proxies.txt".format(mode)
       await e.respond(file=file)
 
-@bot.on(events.NeeMessage(pattern="^[/!]start$", func=lambda e: e.is_private))
+@bot.on(events.NewMessage(pattern="^[/!]start$", func=lambda e: e.is_private))
 async def _start(e):
  await e.respond("""
 ✨ PiroProxy™ ✨
