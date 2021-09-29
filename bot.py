@@ -35,8 +35,8 @@ async def _start(e):
 ✅For Socks4 click /socks4
 
 By using our service you agree to our terms of use!
-• AutoUpdate each 69 Mins
-• Support: @roseloverx_support
+• The Bot Downloads proxies from proxyscrape to make your work easy
+• For Free Stuff Join: @piro_giveaways (Happy Cracking :)
 """, buttons=[Button.text("HTTP", resize=True), Button.text("SOCKS4", resize=True), Button.text("SOCKS5", resize=True)])
 
 @bot.on(events.NewMessage(pattern="^HTTP", func=lambda e: e.is_private))
