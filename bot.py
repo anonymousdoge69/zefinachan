@@ -28,7 +28,7 @@ async def get_proxies(e):
 @bot.on(events.NewMessage(pattern="^[/!]start$", func=lambda e: e.is_private))
 async def _start(e):
  await e.respond("""
-✨ PiroProxy™ ✨
+✨ ZefinaProxy~ ✨
 
 ✅For Http(S) click /http
 ✅For Socks5 click /socks5
